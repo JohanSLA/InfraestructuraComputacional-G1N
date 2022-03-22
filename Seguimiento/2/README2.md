@@ -1,5 +1,3 @@
---Seguimiento 2--
-Parte 1:
 1-Se oprimio una tecla para interrumpir el arranque en el grub
 2-se presiono la tecla e y aparecio lo siguiente:
 
