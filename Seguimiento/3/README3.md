@@ -5,15 +5,8 @@ Punto 1:
 sudo groupadd profesores
 sudo groupadd estudiantes
 
-
-
-
-
-
-
-
-
-
+'/home/johanl/Imágenes/1.1.png' 
+'/home/johanl/Imágenes/1.2.png' 
 
 
 Punto 2:
@@ -21,18 +14,13 @@ Punto 2:
 2.1 se crearon los tres respectivos usuarios con el comando:
 
 sudo adduser diana
+'/home/johanl/Imágenes/2.1.png' 
+
 sudo adduser claudia
+'/home/johanl/Imágenes/2.2.png' 
+
 sudo adduser laura
-
-
-
-
-
-
-
-
-
-
+'/home/johanl/Imágenes/2.3.png' 
 
 
 
@@ -47,38 +35,28 @@ grupo estudiantes — laura
 esto se hizo con el siguiente comando:
 
 sudo usermod diana -G profesores
+'/home/johanl/Imágenes/3.1.png' 
+
 sudo usermod claudia -G profesores
+'/home/johanl/Imágenes/3.2.png' 
+
 sudo usermod Laura -G estudiantes
-
-
-
-
-
-
-
-
-
-
+'/home/johanl/Imágenes/3.3.png' 
 
 
 
 
 Nota: se verifico el paso anterior con el comando: cat /etc/group el cual me sirve para ver los grupos y los usuarios pertenecientes a dichos grupos2
 
-
-
-
-
+'/home/johanl/Imágenes/3.4.png' 
 
 
 
 3.2 Se crearon los directorios D.Profesores y D.Estudiantes con el comando mkdir en la ubicación /home esto para evitar los problemas con los permisos de cada usuario
 
+'/home/johanl/Imágenes/3.5.png' 
 
-
-
-
-
+'/home/johanl/Imágenes/3.6.png' 
 
 
 
@@ -92,13 +70,9 @@ sudo chgrp -R estudiantes /home/D.Estudiantes —  El grupo estudiantes es dueñ
 
 
 
+'/home/johanl/Imágenes/3.7.png' 
 
-
-
-
-
-
-
+'/home/johanl/Imágenes/3.8.png' 
 
 
 
@@ -111,15 +85,9 @@ sudo chmod 070 /home/D.Profesores  — Da acceco de rwx a grupos
 
 sudo chmod 077 /home/D.Estudiantes — Da acceco de rwx a grupos y otros
 
+'/home/johanl/Imágenes/4.1.png' 
 
-
-
-
-
-
-
-
-
+'/home/johanl/Imágenes/4.2.png' 
 
 
 
@@ -129,46 +97,21 @@ Punto 5:
 
 Usuario diana:
 
-
-
-
-
-
-
-
-
-
-
+'/home/johanl/Imágenes/5.1.png' 
 
 
 
 
 Usuario claudia:
 
-
-
-
-
-
-
-
-
-
-
-
+'/home/johanl/Imágenes/5.2.png' 
 
 
 
 
 usuario laura:
 
-
-
-
-
-
-
-
+'/home/johanl/Imágenes/5.3.png' 
 
 
 
@@ -182,30 +125,25 @@ Punto 6:
 
 Usuario diana:
 
+'/home/johanl/Imágenes/6.1.png' 
 
-
-
-
+'/home/johanl/Imágenes/6.2.png' 
 
 
 
 
 Usuario Claudia:
 
+'/home/johanl/Imágenes/6.3.png' 
 
-
-
-
-
+'/home/johanl/Imágenes/6.4.png' 
 
 
 
 
 Usuario Laura:
 
-
-
-
+'/home/johanl/Imágenes/6.5.png' 
 
 
 
@@ -215,11 +153,7 @@ Punto 7:
 
 7.1 Cambie el usuario a súper usuario (root) y revise el dueño de los directorios , el resultado es el siguiente :
 
-
-
-
-
-
+'/home/johanl/Imágenes/7.1.png' 
 
 
 
@@ -233,14 +167,7 @@ chown diana notasSegundoCorte
 
 Quedaría de la siguiente manera: 
 
-
-
-
-
-
-
-
-
+'/home/johanl/Imágenes/7.2.png' 
 
 
 
@@ -251,36 +178,15 @@ Punto 8:
 
 8.1 Usando diferentes terminales entre al sistema con diferentes usuarios equivocándome unas veces por completo en nombre de usuario y contraseña
 
+'/home/johanl/Imágenes/8.1.png' 
 
+'/home/johanl/Imágenes/8.2.png' 
 
+'/home/johanl/Imágenes/8.3.png' 
 
+'/home/johanl/Imágenes/8.4.png' 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+'/home/johanl/Imágenes/8.5.png' 
 
 
 
@@ -292,29 +198,11 @@ Punto 9:
 
 
 
+'/home/johanl/Imágenes/9.1.png' 
 
+'/home/johanl/Imágenes/9.2.png' 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+'/home/johanl/Imágenes/9.3.png' 
 
 
 
@@ -324,35 +212,7 @@ Punto 10:
 
 10.1 con el comando last liste los ingresos al sistema y pude ver que laura ingreso 2 veces al sistema
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+'/home/johanl/Imágenes/10.1.png' 
 
 
 
@@ -362,36 +222,18 @@ Punto 11:
 
 11.1 con el comando tar cvfz nombreComprimido.tgz D.Profesores comprimi el directorio D.Profesores en un archivo .tgz con el nombre profesore.tgz
 
+'/home/johanl/Imágenes/11.1.png' 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+'/home/johanl/Imágenes/11.2.png' 
 
 
 
 
 11.2 con el comando  zip -r  nombreComprimido.zip D.Estudiantes comprimi el directorio D.Estudiantes en un archivo .zip con el nombre estudiantes.zip
 
+'/home/johanl/Imágenes/11.3.png' 
 
-
-
-
-
-
-
+'/home/johanl/Imágenes/11.4.png' 
 
 
 
@@ -400,19 +242,6 @@ Punto 12:
 
 12.1 Con el comando alias cc =”sudo paswwd diana”  hicimos un atajo para cambiar la clave del usuario diana al ejercer el atajo cc
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+'/home/johanl/Imágenes/12.1.png' 
 
 
