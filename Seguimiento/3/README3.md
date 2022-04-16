@@ -5,8 +5,7 @@ Punto 1:
 sudo groupadd profesores
 sudo groupadd estudiantes
 
-'/home/johanl/Imágenes/1.1.png' 
-'/home/johanl/Imágenes/1.2.png' 
+![1 1](https://user-images.githubusercontent.com/101069598/163656218-9f6025d3-bbaf-4be8-8dfa-3fbb8f12d064.png)
 
 
 Punto 2:
