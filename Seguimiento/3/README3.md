@@ -10,7 +10,7 @@ sudo groupadd estudiantes
 
 
 Punto 2:
-
+--
 2.1 se crearon los tres respectivos usuarios con el comando:
 
 sudo adduser diana
@@ -27,7 +27,7 @@ sudo adduser laura
 
 
 Punto 3:
-
+--
 3.1 Se asignaron los usuarios a los grupos de la siguiente forma :
 
 grupo profesores — diana y claudia
@@ -80,7 +80,7 @@ sudo chgrp -R estudiantes /home/D.Estudiantes —  El grupo estudiantes es dueñ
 
 
 Punto 4: 
-
+--
 4.1 Se les asigno los respctivos accesos como lo indica el punto con el comando:
 
 sudo chmod 070 /home/D.Profesores  — Da acceco de rwx a grupos
@@ -94,7 +94,7 @@ sudo chmod 077 /home/D.Estudiantes — Da acceco de rwx a grupos y otros
 
 
 Punto 5:
-
+--
 5.1 Se verificaron los permisos anteriormente concedidos entrando a cada usuario con el comando : sudo su nombreUsuario y viendo si este tenia acceso a su o sus respectivos directorios
 
 Usuario diana:
@@ -116,7 +116,7 @@ usuario laura:
 
 
 Punto 6:
-
+--
 6.1 Entre a los directorios creados con los tres usuarios y con cada uno cree un archivo con el comando vi
 
 
@@ -143,7 +143,7 @@ Usuario Laura:
 
 
 Punto 7:
-
+--
 7.1 Cambie el usuario a súper usuario (root) y revise el dueño de los directorios , el resultado es el siguiente :
 
 ![7 1](https://user-images.githubusercontent.com/101069598/163656493-176b18cf-f54c-4120-a45c-bcd66a4f7f9d.png)
@@ -162,7 +162,7 @@ Quedaría de la siguiente manera:
 
 
 Punto 8:
-
+--
 8.1 Usando diferentes terminales entre al sistema con diferentes usuarios equivocándome unas veces por completo en nombre de usuario y contraseña
 
 ![8 1](https://user-images.githubusercontent.com/101069598/163656510-3fef7435-e93d-4fd3-b4b0-1d10da8359a5.png)
@@ -178,7 +178,7 @@ Punto 8:
 
 
 Punto 9:
-
+--
 9.1 Usando diferentes terminales accedí al sistema equivocándome algunas veces en el nombre de usuario o contraseña
 
 
@@ -191,7 +191,7 @@ Punto 9:
 
 
 Punto 10:
-
+--
 10.1 con el comando last liste los ingresos al sistema y pude ver que laura ingreso 2 veces al sistema
 
 ![10 1](https://user-images.githubusercontent.com/101069598/163656574-4437711c-ba23-45b4-92fa-60cdbc334af0.png)
@@ -199,7 +199,7 @@ Punto 10:
 
 
 Punto 11:
-
+--
 11.1 con el comando tar cvfz nombreComprimido.tgz D.Profesores comprimi el directorio D.Profesores en un archivo .tgz con el nombre profesore.tgz
 
 ![11 1](https://user-images.githubusercontent.com/101069598/163656588-529fb05f-c4d2-43b9-9c58-b0773e3995b2.png)
@@ -217,7 +217,7 @@ Punto 11:
 
 
 Punto 12:
-
+--
 12.1 Con el comando alias cc =”sudo paswwd diana”  hicimos un atajo para cambiar la clave del usuario diana al ejercer el atajo cc
 
 ![12 1](https://user-images.githubusercontent.com/101069598/163656613-fd127ea4-fd28-4d58-ad86-cc4cebcf25cf.png)
