@@ -242,6 +242,6 @@ Punto 12:
 
 12.1 Con el comando alias cc =”sudo paswwd diana”  hicimos un atajo para cambiar la clave del usuario diana al ejercer el atajo cc
 
-'/home/johanl/Imágenes/12 
+'/home/johanl/Imágenes/12 ca va
 
 
