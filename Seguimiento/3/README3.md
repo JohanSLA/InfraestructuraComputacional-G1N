@@ -1,5 +1,5 @@
 Punto 1:
-
+--
 1.1 se crearon los dos grupos desde mi usuario con el comando:
 
 sudo groupadd profesores
